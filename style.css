@@ -1,5 +1,5 @@
 body{
-    background-color:#ab9680;
+    background-color:#eee2e2;
     font-family: Arial, Helvetica, sans-serif;
     color:rgb(0, 0, 0);
     line-height:1.6;
@@ -8,10 +8,11 @@ header{
     background-color: #907761;
     text-align:center;
     padding: 20px;
+    border-radius: 70px;
 }
 ul li, ol li{
-    list-style: none;
-    display: inline-flexbox;
+    list-style:none;
+    display:flex;
 }
 h1{
     margin-bottom: 15px;
@@ -25,20 +26,21 @@ main{
     padding: 40px;
 }
 .listas-cafes{
-    border-left: 5px solid#907761;
-    padding-left: 10px;
+    border-left:3px solid#907761;
+    padding-left:10px;
 }
 .produto{
-    border: 1px solid #ddd;
+    border: 3px solid #907761;
     padding: 15px;
     margin-bottom: 20px;
+ border-radius: 10px;
 }
 footer{
     text-align: center;
     padding: 30px color #ffffff;
 }
 img{
-    max-width: 100%;
+    max-width: 80%;
 height: auto;
 border-radius: 8px;
 }
